@@ -1,8 +1,18 @@
 .header{
     background-image: url(img/Pizzakep.jpg);
     height: 100%;
-    width: 100%;
+    color: white;
+    padding: 200px;
+    align-items: center;
+    
+    
 }
 .navbarjobb{
     float: right;
+    color: white;
+    
+}
+.tortenet{
+    background-color: gray;
+    
 }
