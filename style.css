@@ -1,10 +1,13 @@
+body{
+    font-family: Helvetica;
+}
 .header{
     background-image: url(img/Pizzakep.jpg);
     height: 100%;
     color: white;
     padding: 200px;
     align-items: center;
-    
+    background-position: 60%;
     
 }
 .navbarjobb{
@@ -14,5 +17,30 @@
 }
 .tortenet{
     background-color: gray;
-    
+    padding: 5px;
+    color: white;
+}
+.menu{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.gombok{
+    align-items: center;
+    background-color: black;
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center;
+    line-height: 24px;
+    min-width: 140px;
+    padding: 0 17px;
+    text-align: center;
+    user-select: none;
+    touch-action: manipulation;
 }
