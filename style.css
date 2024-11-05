@@ -14,7 +14,8 @@
     background-color: #222222;
     padding: 5px;
     color: white;
-    padding-left: 10%;
+    height: 200px;
+
 }
 .menu{
     background-color: black;
@@ -42,9 +43,20 @@
     padding: 5px;
     color: white;
     text-align: center;
-}
-.jobbo{
+    padding-left: 10%;
     padding-right: 10%;
+}
+#jobbo{
+    margin-top: auto;
+    text-align: left;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+#balo{
+    float: left;
+    text-align: right;
+    margin-left: 15%;
+    
 }
 #pizza{
     height: 300px;
@@ -59,4 +71,28 @@
     display: inline-block;
     margin: auto;
     padding: 20px;
+}
+#vegyeszoldseg{
+    height: 250px;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    padding: 30px;
+}
+#szalamispizza{
+    height: 250px;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    padding: 30px;
+}
+#leves{
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    margin: auto;
+    padding: 30px;
+}
+.balpizza{
+    float: right;
 }
