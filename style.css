@@ -2,7 +2,7 @@
     background-image: url(img/Pizzakep.jpg);
     height: 100%;
     color: white;
-    padding: 200px;
+    padding: 250px;
     align-items: center;
     background-position: 60%;
 }
@@ -96,4 +96,23 @@
 }
 .balpizza{
     float: right;
+}
+.nyitvatartas{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+footer{
+    background-color: black;
+    margin: auto;
+    padding: 5px;
+    color: grey;
+    text-align: center;
+}
+a{
+    color: grey;
+}
+#id{
+    margin-left: 10%;
+    margin-right: 10%;
 }
