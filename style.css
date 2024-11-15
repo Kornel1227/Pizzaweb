@@ -15,7 +15,8 @@
     padding: 5px;
     color: white;
     height: 200px;
-
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .menu{
     background-color: black;
@@ -24,6 +25,7 @@
     text-align: center;
     padding-left: 10% ;
     padding-right: 10%;
+    height: 300px;
 }
 .gombok{
     align-items: center;
@@ -37,6 +39,7 @@
     height: 48px;
     padding: 0 17px;
     display: inline-block;
+    width: 100px;
 }
 .specialitasok{
     background-color: #222222;
@@ -45,19 +48,21 @@
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
-    height: 1000px;
+    height: 900px;
     padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 #jobbo{
     margin-top: auto;
-    text-align: left;
-    margin-left: 50%;
-    margin-right: 20%;
+    margin-left: 35%;
+    padding-top: 20px;
 }
 #balo{
     float: left;
     text-align: right;
-    margin-left: 30%;
+    margin-left: 10%;
+    padding-top: 20px;
     
 }
 .balpizza{
@@ -67,6 +72,8 @@
     background-color: black;
     color: white;
     padding: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 footer{
     background-color: black;
@@ -84,9 +91,13 @@ a{
 }
 .nyitva{
     color: rgb(207, 207, 207);
+    padding-left: 450px;
+    width: 25%;
 }
 #nyitvaa{
     color: white;
+    padding-left: 450px;
+
 }
 .gallery{
     display: grid;
@@ -133,4 +144,11 @@ a{
     grid-row-start: 7;
     grid-row-end: 9;
     margin: 0;
+}
+#szeretet{
+    padding-left: 200px;
+    font-size: 20px;
+}
+#probald{
+    padding-left: 750px;
 }
