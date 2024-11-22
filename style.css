@@ -27,6 +27,7 @@
     padding-left: 10% ;
     padding-right: 10%;
     height: 300px;
+    padding-top: 3%;
 }
 .gombok{
     align-items: center;
@@ -41,6 +42,7 @@
     padding: 0 17px;
     display: inline-block;
     width: 100px;
+    margin: 10px;
 }
 .specialitasok{
     background-color: #222222;
@@ -92,13 +94,12 @@ a{
 }
 .nyitva{
     color: rgb(207, 207, 207);
-    padding-left: 450px;
+    text-align: left;
+    clear: both;
     width: 25%;
-}
-#nyitvaa{
-    color: white;
-    padding-left: 450px;
-
+    height: 5%;
+    margin-left: 40%;
+    top: 0;
 }
 .gallery{
     display: grid;
@@ -147,9 +148,13 @@ a{
     margin: 0;
 }
 #szeretet{
-    padding-left: 200px;
-    font-size: 20px;
+    float: left;
+    text-align: right;
+    margin-left: 1%;
 }
 #probald{
-    padding-left: 750px;
+    float: right;
+    text-align: left;
+    margin-right: 1%;
+    width: 25%;
 }
