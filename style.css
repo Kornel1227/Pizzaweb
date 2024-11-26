@@ -1,3 +1,6 @@
+body{
+    font-size: 100%;
+}
 .header{
     background-image: url(img/Pizzakep.jpg);
     height: 100%;
@@ -71,13 +74,7 @@
 .balpizza{
     float: right;
 }
-.nyitvatartas{
-    background-color: black;
-    color: white;
-    padding: 5px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
+
 footer{
     background-color: black;
     margin: auto;
@@ -88,19 +85,7 @@ footer{
 a{
     color: grey;
 }
-#hr{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.nyitva{
-    color: rgb(207, 207, 207);
-    text-align: left;
-    clear: both;
-    width: 25%;
-    height: 5%;
-    margin-left: 40%;
-    top: 0;
-}
+
 .gallery{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -147,14 +132,26 @@ a{
     grid-row-end: 9;
     margin: 0;
 }
-#szeretet{
-    float: left;
-    text-align: right;
-    margin-left: 1%;
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: rgb(207, 207, 207);
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Helvetica, sans-serif;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { grid-area: 1 / 3 / 9 / 5; }
+    .div3 { grid-area: 1 / 5 / 4 / 7; }
+.div2{
+    width: 90%;
 }
-#probald{
-    float: right;
-    text-align: left;
-    margin-right: 1%;
-    width: 25%;
-}
+
+    
