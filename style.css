@@ -1,18 +1,27 @@
 body{
     font-size: 100%;
 }
-.header{
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     background-image: url(img/Pizzakep.jpg);
-    height: 100%;
     color: white;
-    padding: 250px;
     align-items: center;
     background-position: 60%;
-}
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 4 / 2 / 6; }
 .navbarjobb{
-    float: right;
     color: white;
 }
+.pizzeriabal{
+    margin: 0;
+}
+
 .tortenet{
     background-color: #222222;
     padding: 5px;
