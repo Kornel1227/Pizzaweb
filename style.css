@@ -73,6 +73,7 @@ body{
 }
 .balpizza{
     float: right;
+    
 }
 
 footer{
@@ -81,6 +82,8 @@ footer{
     padding: 5px;
     color: grey;
     text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 a{
     color: grey;
@@ -145,6 +148,8 @@ a{
     padding-left: 10%;
     padding-right: 10%;
     font-family: Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 2%;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 3; }
@@ -152,6 +157,10 @@ a{
     .div3 { grid-area: 1 / 5 / 4 / 7; }
 .div2{
     width: 90%;
+}
+.div1{
+    text-align: right;
+    padding-right: 10%;
 }
 
     
