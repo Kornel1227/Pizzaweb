@@ -18,11 +18,10 @@ body{
     .div2 { grid-area: 1 / 4 / 2 / 6; }
 .navbarjobb{
     color: white;
-    padding-right: 10%;
 }
 .pizzeriabal{
     margin: 0;
-    padding-left: 10%;
+    padding-left: 20%;
 }
 
 .tortenet{
