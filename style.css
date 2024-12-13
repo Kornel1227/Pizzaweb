@@ -205,3 +205,17 @@ a{
     bottom: 25%;
     
 }
+@media only screen and (max-width: 1070px){
+    #piadina2{
+        width: 80%;
+        
+    }
+    #tort{
+        width: 80%;
+        
+    }
+    .navbarjobb{
+        
+    }
+    
+}
