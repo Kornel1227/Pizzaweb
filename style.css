@@ -202,20 +202,49 @@ a{
     position: relative;
     text-align: center;
     font-size: 15px;
-    bottom: 25%;
+    bottom: 30%;
     
 }
-@media only screen and (max-width: 1070px){
+.bottm_center4{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    bottom: 10%;
+}
+@media only screen and (max-width: 1085px){
+    #jobbo{
+        padding-left: 5%;
+    }
+    .menu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media only screen and ( max-width: 1023px){
+    .specialitasok{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .bottm_center{
+        bottom: 15%;
+    }
+    .bottm_center2{
+        bottom: 25%;
+    }
+    .bottm_center3{
+        bottom: 35%;
+    }
+    .bottm_center1{
+        bottom: 25%;
+    }
+}
+@media only screen and (max-width: 991px){
     #piadina2{
-        width: 80%;
-        
+        width: 90%;
     }
     #tort{
-        width: 80%;
-        
+        width: 90%;
     }
-    .navbarjobb{
-        
-    }
-    
+
 }
