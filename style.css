@@ -82,11 +82,6 @@ body{
     padding-top: 20px;
     
 }
-.balpizza{
-    float: right;
-    
-}
-
 footer{
     background-color: black;
     margin: auto;
@@ -279,8 +274,47 @@ a{
         margin-left: 0px;
     }    
 }
+@media only screen and (max-width: 800px ){
+    .bottm_center{
+        bottom: 20%;
+    }
+    .bottm_center2{
+        bottom: 30%;
+    }
+    .bottm_center3{
+        bottom: 40%;
+    }
+    .bottm_center1{
+        bottom: 30%;
+    }
+}
 @media only screen and (max-width :670px){
     .tortenet{
         height: 350px;
+    }
+    .bottm_center1{
+        bottom: 40%;
+    }
+}
+@media only screen and (max-width: 635px){
+    .tortenet{
+        padding-left: 0%;
+        padding-right: 0%;
+        height: 370px;
+    }
+    .parent{
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 515px){
+    #balo{
+        float: none;
+    }
+    #jobbo{
+        text-align: left;
+        margin: 0;
+    }
+    .tortenet{
+        height: 400px;
     }
 }
